@@ -10,10 +10,15 @@ This project aims to provide real-time insights into stock trends, price movemen
 - Trading Volume Analysis: Stocks with high totalTradedVolume indicate strong investor interest.												kiss stock ko log jada buy kr rahe hai
 
 ## Process
-- Check the data for missing values and anomalies, then address any issues.
-- Ensure the data is clean and consistent in terms of type, format, and values.
-- Generate pivot tables based on the required questions.
-- Combine all pivot tables into a single dashboard and use slicers for dynamic filtering.
+1️⃣ Fetched Data from NSE Website – Used the official NSE India website to extract real-time data on top gainers, top losers, most volatile stocks, and sector performance.
+
+2️⃣ Linked Data Using Power Query – Connected the NSE website data directly to Power Query in Excel, enabling automatic updates without manual intervention.
+
+3️⃣ Transformed & Cleaned Data – Processed the raw stock market data, filtering out unnecessary information and structuring it for clear insights.
+
+4️⃣ Created Visualizations & Insights – Organized the data into sortable tables and charts to highlight market trends in an easy-to-understand format.
+
+5️⃣ Automated Updates for Live Tracking – Set up Power Query to refresh the data periodically, ensuring that the insights always reflect the latest market movements.
 ## Dashboard
 ![Dashboard](https://github.com/user-attachments/assets/5a3ab61b-7a33-4cd3-997e-98810c34ce60)
 ## Project Insights – Nifty Fifty Market Insights
